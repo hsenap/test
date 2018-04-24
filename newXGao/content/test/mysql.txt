@@ -1,0 +1,5 @@
+create database sg CHARACTER SET utf8 COLLATE create table user(
+id int auto_increment primary key,
+name varchar(10),
+pw varchar(10) 
+)CHARACTER SET utf8 COLLATE utf8_general_ci;

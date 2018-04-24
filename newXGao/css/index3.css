@@ -1,0 +1,614 @@
+.page {
+	margin: auto;
+	/*padding: 0px;*/
+}
+
+.page-header-top {
+	display: flex;
+	display: -webkit-box;     
+	display: -moz-box;      
+	display:-webkit-flex;  
+	display: -ms-flexbox;
+	flex-direction: row;
+	display: -webkit-flex; 
+/*	display: -webkit-flex; /* Safari */
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color: #f3f3f3;
+	font-size: 13px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	justify-content: space-between;
+	min-width: 360px;
+	margin-bottom: 1%;
+}
+
+/*小于500px隐藏顶部标题*/
+@media  screen and (max-width:500px ) {
+	#page-header-top{
+		display: none;
+	}
+   
+}
+
+.page-header-top-rigth {
+	font: arial;
+	color: #3c3d3d;
+}
+
+.page-header-top-left {}
+
+.page-header-top-left-item {
+	width: 100px;
+}
+
+.page-header-top-rigth-moble {
+	color: #009fe0;
+}
+
+
+/*图片与搜索框*/
+
+.page-header-con {
+		display: flex;
+	display: -webkit-box;     
+	display: -moz-box;      
+	display:-webkit-flex;  
+	display: -ms-flexbox;
+	flex-direction: row;
+	display: -webkit-flex; 
+	display: -webkit-flex; /* Safari */
+	flex-direction: row;
+	/*background-color: antiquewhite;*/
+	flex-wrap: wrap;
+	min-width: 360px;
+}
+
+.page-header-con-left {
+	text-align: center;
+	padding-bottom: 2%;
+	padding-top: 2%;
+	
+	/*	background-color: aquamarine;*/
+	flex-grow: 1;
+}
+
+.page-header-con-left img {
+	width: 300px;
+}
+
+.page-header-con-rigth {
+		display: flex;
+	display: -webkit-box;     
+	display: -moz-box;      
+	display:-webkit-flex;  
+	display: -ms-flexbox;
+	flex-direction: row;
+	display: -webkit-flex; 
+	display: -webkit-flex; /* Safari */
+	flex-grow: 1;
+	padding-top: 1.9%;
+/*	margin-left: 5%;*/
+	padding-left: 5%;
+}
+
+
+/*搜索*/
+
+.page-header-con-rigth-shous {
+	flex-grow: 1;
+	width: 50%;
+	height: 20%;
+	flex-shrink: 1;
+	/*background-color: aquamarine;*/
+}
+
+.page-header-con-rigth-shous-shk {
+	width: 70%;
+	height: 25px;
+	border: 0.1em solid #e50150;
+	outline: none;
+	/*文本框去除阴影*/
+}
+
+.page-header-con-rigth-shous-shz {
+	font-size: 13px;
+	height: 30px;
+	background-color: #e50150;
+	border: none;
+	color: #fff;
+	width: 43px;
+	margin-left: 0px;
+}
+
+
+/*登录*/
+
+.page-header-con-rigth-loging {
+	flex-grow: 1;
+	flex-shrink: 1;
+	/*	background-color: coral;*/
+	font-size: 13px;
+	padding-top: 10px;
+	padding-left: 1.5%;
+}
+
+.page-header-con-rigth-loging-dl {
+	text-decoration: none;
+	color: #009fe0;
+}
+
+.page-header-con-rigth-loging-zc {
+	text-decoration: none;
+	color: #009fe0;
+}
+
+
+/*头部导航栏*/
+/*超过615px隐藏头部导航栏*/
+@media  screen and (max-width:615px ) {
+	.page-header-page-header-fooder-ul-li{
+		display: none;
+	}
+	.page-header-page-header-fooder-ul-li{
+		font-size: 0.8em;
+	}
+   
+}
+
+.page-header-fooder {
+	/*	  background-color: #fff;*/
+	/*  background-color: #fff;*/
+	color: #fffefe;
+	background-color: #e50150;
+	width: 100%;
+	/*margin-top: -13px;*/
+	min-width: 360px;
+	min-height: 30px;
+	padding-bottom: 1%;
+	padding-top: 1%;
+	margin-top: 0.5%;
+}
+
+.page-header-fooder-ul {
+	list-style: none;
+		display: flex;
+	display: -webkit-box;     
+	display: -moz-box;      
+	display:-webkit-flex;  
+	display: -ms-flexbox;
+	flex-direction: row;
+	display: -webkit-flex; 
+	display: -webkit-flex; /* Safari */
+	flex-direction: row;
+	justify-content: space-around;
+	max-height: 30px;
+}
+
+.page-header-page-header-fooder-ul-li {
+	align-items: center;
+	/*	padding-top: 1%;*/
+}
+
+.page-header-page-header-fooder-ul-li-sle {
+    background-color: #e50150;
+	border: 0px;
+	font-size: 16px;
+	color: #fffefe;
+	/*border: 0; 
+    background: transparent;
+    appearance:none;      */
+     -moz-appearance:none; /* Firefox */      
+     -webkit-appearance:none; /* Safari 和 Chrome */
+   /*background: transparent;    
+    border:none;   
+      outline: none;
+      appearance:none;*/
+	
+}
+
+.page-header-page-header-fooder-ul-li-sle-op {
+	color: #fffefe;
+    font-size: 16px;
+    margin-bottom: 6%;
+    margin-top: 6%
+    /*border: 0; 
+    background: transparent;
+        appearance:none;      
+     -moz-appearance:none; /* Firefox */      
+    /* -webkit-appearance:none; /* Safari 和 Chrome */
+      /*outline: none;
+         background: transparent;    
+    border:none;   
+      outline: none;
+	appearance:none;*/
+     
+
+}
+.page-header-page-header-fooder-ul-li-a{
+	border: 0px;
+}
+
+/*中部*/
+
+.page-content {
+	min-width: 360px;
+}
+/*轮播图片 这里的图片css必须加class不然控制不了width*/
+.swiper-container{
+	width: 100%;
+	height: 50%;
+}
+.page-content-luobo{
+	width: 35%;
+
+}
+.page-content-luobo-img {
+	width: 100%;	
+}
+
+.page-content-ym {
+	margin: auto;
+		display: flex;
+	display: -webkit-box;     
+	display: -moz-box;      
+	display:-webkit-flex;  
+	display: -ms-flexbox;
+	flex-direction: row;
+	display: -webkit-flex; 
+	display: -webkit-flex; /* Safari */
+	justify-content: center;
+	padding 2%;
+	margin-top:0.1% ;
+	margin-bottom: 0.5%;
+}
+
+.page-content-ym-ymz {
+	background-color: #00b7ef;
+	/*width: 18%;
+	height: 38px;*/
+	font-size: 1.4em;
+	align-content: center;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	padding-left: 3%;
+	padding-right: 3%;
+	color: #fff;
+	text-align: center;
+	margin: 1%;
+}
+
+
+/*羊毛大衣图片*/
+
+.page-content-ymyt {
+	border: 10%;
+
+}
+
+.page-content-ymyt img {
+	width: 100%;
+	min-width: 350px;
+}
+
+
+/*当屏幕宽度为大于1224像素的样式*/
+
+@media screen and (min-width: 1224px) {
+	.page-content-pp_ouhan-pp {
+		/*background-color: #8B0000;*/
+		flex-wrap: nowrap;
+			display: flex;
+	display: -webkit-box;     
+	display: -moz-box;      
+	display:-webkit-flex;  
+	display: -ms-flexbox;
+	flex-direction: row;
+	display: -webkit-flex; 
+		display: -webkit-flex; /* Safari */
+		flex-direction: row;
+		justify-content: space-between
+	}
+}
+
+
+/*当屏幕宽度为小于1224像素的样式*/
+
+@media screen and (max-width: 1223px) {
+	.page-content-pp_ouhan-pp {
+		/*	background-color: #BDB76B;*/
+		display: block;
+	}
+	.page-content-pp_ouhan-pp-left {
+		display: block;
+		text-align: center;
+	}
+	.page-content-pp_ouhan-pp-rigth {
+		display: block;
+		text-align: center;
+	}
+	.page-content-pp_ouhan-pp-con {
+		display: block;
+		text-align: center;
+	}
+}
+
+.page-content-pp_ouhan-pp {
+	/*	display: flex;
+	display: -webkit-box;     
+	display: -moz-box;      
+	display:-webkit-flex;  
+	display: -ms-flexbox;
+	flex-direction: row;
+	display: -webkit-flex; 
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between*/
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.page-content-pp_ouhan-pp-left {
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+.page-content-pp_ouhan-pp-con {
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+.page-content-pp_ouhan-pp-rigth {
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+.page-content-pp_ouhan-pp-left img {
+	/*height: 100%;
+	width: 100%;*/
+	/*min-width: 300px;*/
+	/*max-width: 300px;*/
+	text-align: center;
+	align-content: center;
+	width: 100%;
+}
+
+.page-content-pp_ouhan-pp-con img {
+	/*height: 100%;
+	width: 100%;*/
+	/*	min-width: 300px;*/
+	/*max-width: 300px;*/
+	width: 100%;
+}
+
+.page-content-pp_ouhan-pp-rigth img {
+	/*height: 100%;
+	width: 100%;*/
+	/*min-width: 300px;*/
+	/*max-width: 300px;*/
+	width: 100%;
+}
+
+
+/*欧韩馆*/
+
+.page-content-pp_ouhan-oh {
+	margin-right: 5%;
+	margin-left: 5%;
+	/*	display: flex;
+	display: -webkit-box;     
+	display: -moz-box;      
+	display:-webkit-flex;  
+	display: -ms-flexbox;
+	flex-direction: row;
+	display: -webkit-flex; */
+	/*flex-direction: row;*/
+	/*flex-wrap: wrap;*/
+	/*background-color: #FF7F50;*/
+	/*		display: flex;
+	display: -webkit-box;     
+	display: -moz-box;      
+	display:-webkit-flex;  
+	display: -ms-flexbox;
+	flex-direction: row;
+	display: -webkit-flex; */
+	/*flex-wrap: wrap;*/
+}
+
+
+/*当屏幕宽度为大于1000像素的样式*/
+
+@media screen and (min-width: 1000px) {
+	.page-content-pp_ouhan-oh {
+			display: flex;
+	display: -webkit-box;     
+	display: -moz-box;      
+	display:-webkit-flex;  
+	display: -ms-flexbox;
+	flex-direction: row;
+	display: -webkit-flex; 
+		display: -webkit-flex; /* Safari */
+		justify-content: center;
+	}
+	.page-content-pp_ouhan-oh-ohh-img img {
+		width: 100%;
+		height: 300px;
+		
+	}
+	.page-content-pp_ouhan-ng-img img {
+		width: 100%;
+		height: 300px;
+		margin-top: 2%;
+		
+	}
+}
+
+.page-content-pp_ouhan-oh-ohh {
+	/*background-color: #BDB76B;*/
+	width: 100%;
+	/*	text-align: center;*/
+	/*width: 50%;*/
+	/*	display: flex;
+	display: -webkit-box;     
+	display: -moz-box;      
+	display:-webkit-flex;  
+	display: -ms-flexbox;
+	flex-direction: row;
+	display: -webkit-flex; */
+	/*justify-content: center;
+	flex-wrap:wrap ;	*/
+}
+
+
+/*欧韩馆图片*/
+
+.page-content-pp_ouhan-oh-ohh-img img {
+	
+	width: 100%;
+	margin-top:3% ;
+	margin-bottom: 2.5%;
+}
+
+.page-content-pp_ouhan-oh-ohh-zt {
+	color: #fff;
+	background-color: #00479d;
+	font-size: 1.1em;
+	width: 40%;
+	padding: 2%;
+	margin: auto;
+		display: flex;
+	display: -webkit-box;     
+	display: -moz-box;      
+	display:-webkit-flex;  
+	display: -ms-flexbox;
+	flex-direction: row;
+	display: -webkit-flex; 
+	display: -webkit-flex; /* Safari */
+	justify-content: center;
+}
+
+.page-content-pp_ouhan-oh-ohh-zt-z {
+	/* text-align: center;*/
+}
+
+.page-content-pp_ouhan-ng {
+	width: 100%;
+
+}
+
+
+/*.page-content-pp_ouhan-ng-imter {
+	color: #fff;
+	text-align: center;
+	font-size: 1.1em;
+		display: flex;
+	display: -webkit-box;     
+	display: -moz-box;      
+	display:-webkit-flex;  
+	display: -ms-flexbox;
+	flex-direction: row;
+	display: -webkit-flex; 
+	justify-content: center;
+	flex-wrap:wrap ;	
+}*/
+
+.page-content-pp_ouhan-ng-imter-nk {
+	background-color: #e4017f;
+	width: 40%;
+	padding: 2%;
+	margin: auto;
+		display: flex;
+	display: -webkit-box;     
+	display: -moz-box;      
+	display:-webkit-flex;  
+	display: -ms-flexbox;
+	flex-direction: row;
+	display: -webkit-flex; 
+	display: -webkit-flex; /* Safari */
+	justify-content: center;
+	font-size: 1.1em;
+}
+
+.page-content-pp_ouhan-ng-imter-nk-z {
+	
+	color: #fff;
+}
+
+.page-content-pp_ouhan-ng-img img {
+    margin-top: 3.1%;
+	width: 100%;
+
+
+}
+
+
+/*尾部*/
+
+.page-footer {
+	background-color: #272727;
+	height: 30%;
+	min-width: 360px;
+}
+
+@media screen and (min-width:700px) {
+	.page-footer-h {
+			display: flex;
+	display: -webkit-box;     
+	display: -moz-box;      
+	display:-webkit-flex;  
+	display: -ms-flexbox;
+	flex-direction: row;
+	display: -webkit-flex; 
+		display: -webkit-flex; /* Safari */
+		flex-direction: row;
+		justify-content: space-around;
+		flex-wrap: wrap;
+	}
+}
+
+@media screen and (max-width:701px) {
+	.page-footer-h {
+		display: block
+	}
+	.page-footer-h-ty {
+		display: block
+	}
+	.a-h-hh-hh {
+		display: inline;
+	}
+}
+
+.page-footer-h {
+	/*	display: flex;
+	display: -webkit-box;     
+	display: -moz-box;      
+	display:-webkit-flex;  
+	display: -ms-flexbox;
+	flex-direction: row;
+	display: -webkit-flex; 
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;*/
+	height: 100%;
+}
+
+.a-h {
+	font-size: 1.3em;
+	color: #fff;
+}
+
+.a-h-h {
+	text-align: left;
+	list-style: none;
+	color: #fff;
+	font-size: 0.8em;
+}
+
+.a-h-hh-hh {
+	margin-top: 20%;
+	margin-bottom: 20%;
+}
+
+.a-h-hh-hh-h {
+	font-size: 1.3em;
+}
